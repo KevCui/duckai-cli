@@ -16,7 +16,7 @@ const cookie = {
   path: '/'
 };
 
-chromium.launch({ headless: false, timeout: 10000 }).then(async browser => {
+chromium.launch({ headless: true, timeout: 10000 }).then(async browser => {
   // Set page
   const context = await browser.newContext();
   await context.addCookies([cookie]);
