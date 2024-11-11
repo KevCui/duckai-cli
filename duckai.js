@@ -25,6 +25,9 @@ chromium.launch({ headless: true, timeout: 10000 }).then(async browser => {
   // Start page
   await page.goto(url, { waitUntil: 'domcontentloaded' });
 
+  // Reload page
+  await page.reload();
+
   // Submit question
   await page.fill(textareaSearchBox, searchText);
   await page.click(buttonSubmit);
