@@ -6,7 +6,7 @@ const searchText = process.argv[2];
 const url = 'https://duck.ai';
 const textareaSearchBox = '[name="user-prompt"]';
 const buttonSubmit = '[aria-label="Send"]';
-const textMessage = '.JXNYs5FNOplxLlVAOswQ';
+const textMessage = '[heading="GPT-4o mini"] > div:nth-child(2)';
 const totalLoopCount = 60;
 const printIntervalTime = 1000;
 const cookie = {
