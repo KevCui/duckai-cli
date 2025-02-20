@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
 const { chromium } = require('playwright-extra');
+const stealth = require('puppeteer-extra-plugin-stealth')();
+chromium.use(stealth);
 
 const searchText = process.argv[2];
 const url = 'https://duck.ai';

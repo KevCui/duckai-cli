@@ -12,7 +12,8 @@
 
 ## Dependency
 
-- [playwright-chromium](https://github.com/Microsoft/playwright)
+- [playwright-extra](https://www.npmjs.com/package/playwright-extra)
+- [playwright-extra-plugin-stealth](https://www.npmjs.com/package/puppeteer-extra-plugin-stealth)
 
 ## Installation
 
